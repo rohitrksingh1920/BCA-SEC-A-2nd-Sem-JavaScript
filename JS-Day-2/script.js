@@ -65,24 +65,23 @@
 
 // Q 5. Find the duplicate element and return the unique array
 
-let arr = [1, 2, 3, 2, 4, 1, 5, 8, 5];
+// let arr = [1, 2, 3, 2, 4, 1, 5, 8, 5];
 
-let unique = [];
+// let unique = [];
 
-for (let i = 0; i <= arr.length-1; i++) {
-    let isDuplicate = false;
+// for (let i = 0; i <= arr.length-1; i++) {
+//     let isDuplicate = false;
 
-    for (let j = 0; j <= unique.length-1; j++) {
-        if (arr[i] === unique[j]) {
-            isDuplicate = true;
-            console.log("duplicated:", arr[i]);
-            break;
-        }
-    }
+//     for (let j = 0; j <= unique.length-1; j++) {
+//         if (arr[i] === unique[j]) {
+//             isDuplicate = true;
+//             console.log("duplicated:", arr[i]);
+//             break;
+//         }
+//     }
 
-    if (!isDuplicate) {
-        unique.push(arr[i]);
-    }
-}
-
-console.log("Unique Array:", unique);
+//     if (!isDuplicate) {
+//         unique.push(arr[i]);
+//     }
+// }
+// console.log("Unique Array:", unique);
