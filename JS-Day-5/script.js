@@ -75,3 +75,48 @@
 
 // let sentence = "I,am,a,comma,separated,sentence";
 // let words = sentence.split(","); 
+
+// retrive a string from a given string :
+
+// var str = 'The quick brown fox jumps over the lazy dog';
+// var result = '';
+
+// var startIndex = str.indexOf('fox');
+
+// console.log(startIndex);
+
+// if(startIndex !== -1) {
+//     var endIndex = startIndex + 3;
+
+//     for(var i = startIndex; i <= endIndex-1; i++) {
+//         result += str[i];
+//     }
+// }
+// console.log(result);
+
+
+// slice(start, end)
+
+// let str = 'JavaScript is Fun!';
+// let sliced = str.slice(-4, -1);  //or(0, 10)
+
+// console.log(sliced);
+
+
+// substring(start, end)
+
+// let str = 'My name is Rohit, and i am from Grugram Haryana';
+
+// let subString = str.substring(0, 7);
+
+// console.log(subString);
+
+
+// index of
+
+// let paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+
+// let indexOfFirst = paragraph.indexOf('dog');
+
+// console.log(indexOfFirst);
+
