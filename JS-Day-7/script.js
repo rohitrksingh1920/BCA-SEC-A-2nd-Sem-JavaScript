@@ -38,18 +38,18 @@
 // Hello World
 // Hello World World
 
-let user = {
-    fullname : 'Rohit Singh',
-    address :{
-        city : 'GGN',
-        state : 'Haryana',
-},
-    mobileno : 123456789,
-    favcolor : ['black', 'white', 'blue'],
-    demo : function() {
-        return 'demo function'
-    }
-}
+// let user = {
+//     fullname : 'Rohit Singh',
+//     address :{
+//         city : 'GGN',
+//         state : 'Haryana',
+// },
+//     mobileno : 123456789,
+//     favcolor : ['black', 'white', 'blue'],
+//     demo : function() {
+//         return 'demo function'
+//     }
+// }
 // console.log(user.fullname, user.mobileno, user.favcolor[1]);
 
 // console.log("My name is "+user.fullname+". My fav color is "+user.favcolor[0]);
@@ -59,7 +59,7 @@ let user = {
 // console.log(`My name is ${user.fullname}. My fav color is ${user.favcolor[0]}`);
 
 
-console.log(user.fullname, user.mobileno, user.favcolor[1], user.address.city, user.demo());  //for API-Object
+// console.log(user.fullname, user.mobileno, user.favcolor[1], user.address.city, user.demo());  //for API-Object
 
 // Object Methods
 
@@ -68,15 +68,17 @@ console.log(user.fullname, user.mobileno, user.favcolor[1], user.address.city, u
 // console.log(log(Object.values(user)));
 // console.log(log(Object.entries(user)));
 
-const car = {
-    make : 'Mahindra',
-    model : 'Thar',
-};
+// const car = {
+//     make : 'Mahindra',
+//     model : 'Thar',
+// };
 
 // Object.freeze(car); //we cant add a new key and value pair and we cant change or update the existing value
 
-Object.seal(car); //we cant add a new key and value pair but we can change and update the existing value
+// Object.seal(car); //we cant add a new key and value pair but we can change and update the existing value
 
-car.model = 'XUV700'
-car.color = 'zblack';
-console.log(car);
+// car.model = 'XUV700';
+// car.color = 'zblack';
+// console.log(car);
+
+
