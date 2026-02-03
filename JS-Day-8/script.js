@@ -13,3 +13,5 @@ console.log(subHeading);
 for(let i = 0; i < subHeading.length; i++) {
     subHeading[i].style.color = 'blue';
 }
+
+
