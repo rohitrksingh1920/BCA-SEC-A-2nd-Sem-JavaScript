@@ -19,8 +19,8 @@
 
 
 
-
-const query = document.querySelectorAll("p");
+// Task 3
+const query = document.getElementsByTagName("p");
 
 console.log(query);
 
