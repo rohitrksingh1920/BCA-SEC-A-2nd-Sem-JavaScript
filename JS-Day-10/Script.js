@@ -33,6 +33,8 @@ const elementToRemove = document.querySelector("#container p");
 elementToRemove.remove();
 
 
+
+// Event Handel
 function handleClick() {
     document.getElementById("output").textContent = "Button clicked!";
 }
