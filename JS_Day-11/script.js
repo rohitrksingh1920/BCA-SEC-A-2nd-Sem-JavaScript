@@ -21,9 +21,15 @@
 
 // }
 
+
+
+
+// Q3.
+
+
 const button = document.getElementById("btn");
-let link = document.getElementById("link");
-let box = document.getElementById("box");
+const link = document.getElementById("link");
+const box = document.getElementById("box");
 button.addEventListener("click", function () {
   link.style.display = "inline";
   box.style.display = "flex";
