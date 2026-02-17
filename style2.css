@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3ec6c1, #7b9fe0);
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: white;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.hamburger {
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card.full {
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin: 8px 0 15px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #6c63ff, #4db8ff);
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.empty-state {
+    margin-top: 20px;
+    color: gray;
+}
+
+/* MOBILE */
+@media(max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        width: 200px;
+        display: none;
+        box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+        padding: 15px;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+}

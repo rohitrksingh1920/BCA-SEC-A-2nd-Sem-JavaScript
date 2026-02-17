@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<html>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">🎯 Smart Event Dashboard</div>
+
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">My Events</a></li>
+            <li><a href="#">Add Event</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+
+        <!-- Add Event Form -->
+        <div class="card">
+            <h2>Add New Event</h2>
+            <form id="eventForm">
+                <label>Event Title:
+                    <input type="text" id="eventTitle" required>
+                </label>
+
+                <label>Event Date:
+                    <input type="date" id="eventDate" required>
+                </label>
+
+                <label>Category:
+                    <select id="eventCategory" required>
+                        <option value="Conference">Conference</option>
+                        <option value="Workshop">Workshop</option>
+                        <option value="Meetup">Meetup</option>
+                        <option value="Webinar">Webinar</option>
+                        <option value="Social">Social</option>
+                    </select>
+                </label>
+
+                <label>Description:
+                    <textarea id="eventDescription" required></textarea>
+                </label>
+
+                <button type="submit">Add Event</button>
+            </form>
+        </div>
+
+        <!-- Events Section -->
+        <div class="card">
+            <h2>My Events</h2>
+
+            <button id="clearAllBtn">Clear All Events</button>
+            <button id="addSampleBtn">Add Sample Events</button>
+
+            <div id="eventContainer">
+                <div class="empty-state">No events yet. Add your first event!</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DOM Demo -->
+    <div class="card full">
+        <h2>DOM Manipulation Demo</h2>
+        <div id="demoContent">Press any key to see the difference!</div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
